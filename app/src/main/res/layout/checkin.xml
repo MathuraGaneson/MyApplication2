@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightblue">
+
+    <EditText
+        android:id="@+id/mytextText"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:paddingTop="50dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        >
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/scanbtn"
+        android:layout_width="200dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@color/blue"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:text="Scan"
+       />
+
+    <EditText
+        android:id="@+id/barcode_id"
+        android:layout_width="300dp"
+        android:paddingTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:hint="Barcode ID"/>
+
+    <EditText
+        android:id="@+id/status"
+        android:layout_width="300dp"
+        android:layout_marginLeft="30dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:hint="Tool Status"/>
+
+    <EditText
+        android:id="@+id/spec"
+        android:layout_width="300dp"
+        android:layout_marginLeft="30dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:hint="Tool Spec"/>
+
+    <EditText
+        android:id="@+id/category"
+        android:layout_width="300dp"
+        android:layout_marginLeft="30dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:hint="Tool Category"/>
+
+    <EditText
+        android:id="@+id/Process"
+        android:layout_width="300dp"
+        android:layout_marginLeft="30dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:hint="Process"/>
+
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="300dp"
+        android:layout_marginLeft="30dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:hint="Last PM Date"/>
+
+    <EditText
+        android:id="@+id/barcode_name"
+        android:layout_width="300dp"
+        android:layout_marginLeft="30dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:hint="Barcode Name"/>
+
+    <EditText
+        android:id="@+id/Manufacturer"
+        android:layout_width="300dp"
+        android:layout_marginLeft="30dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:hint="Manufacturer"/>
+
+    <EditText
+        android:id="@+id/pm_cycle"
+        android:layout_width="300dp"
+        android:layout_marginLeft="30dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:hint="PM Cycle"/>
+
+    <EditText
+        android:id="@+id/rack"
+        android:layout_width="300dp"
+        android:layout_marginLeft="30dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:hint="Rack"/>
+
+    <EditText
+        android:id="@+id/row"
+        android:layout_width="300dp"
+        android:layout_marginLeft="30dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:hint="Row"/>
+
+    <EditText
+        android:id="@+id/compartment"
+        android:layout_width="300dp"
+        android:layout_marginLeft="30dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:hint="compartment"/>
+</LinearLayout>

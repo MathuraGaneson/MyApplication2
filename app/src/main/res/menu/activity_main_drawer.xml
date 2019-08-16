@@ -5,6 +5,11 @@
 
 
     <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/ic_youtube_searched_for_black_24dp"
+            android:title="Tools Search" />
         <item
             android:id="@+id/nav_check"
             android:icon="@drawable/ic_home_black_24dp"
